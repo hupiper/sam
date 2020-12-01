@@ -1,0 +1,235 @@
+<style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+#navbar{
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: center;
+  position: fixed;
+  min-width: 290px;
+  top:0px;
+  left:0px;
+  height: 100%;
+  width: 300px;
+  border-right: solid;
+  background: #303841;
+  color: #eeeeee;
+}
+a:link{
+  color: #e6e6e6;
+}
+a:visited{
+  color: #f6c90e;
+}
+#navbar header{
+  font-size: 1.5em;
+  font-weight: 50;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: -16px;
+}
+#navbar ul{
+  height: 100%;
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li{
+  border-top: 1px solid;
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+#navbar a{
+  display: block;
+  padding: 10px 30px;
+  curser: pointer;
+}
+#main-doc{
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+}
+
+/*Main Doc*/
+
+body{
+  min-width: 290px;
+  line-height: 1.2;
+  background: black;
+}
+#main-doc header{
+  text-align: center;
+  font-weight: 900;
+  margin: 0px;
+}
+#main-doc{
+  font-family: "Open Sans", Arial, sans-serif;
+  position: absolute;
+  margin-left: 294px;
+  margin-right: 0px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background: #303841;
+  color: #eeeeee;
+  line-height: 1.6;
+}
+section article{
+  margin: 15px;
+  font-size: 0.9em;
+}
+section li{
+  margin: 15px 0px 0px 20px;
+}
+#main-doc h2{
+  text-decoration: underline;
+  text-align: center;
+}
+#intro-block{
+  border-bottom: 2px dashed black;
+}
+#intro-sent{
+  text-align: center;
+}
+#myPic{
+  border: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pic-text{
+  text-align: center;
+}
+
+#welcome-intro{
+  padding: 20px;
+  font-size: 2.5em;
+  background-image: linear-gradient(#f6c90e, #3a4750, #303841);
+}
+#contents-head{
+  background: #808080;
+}
+#homepage-link{
+  background: #666666;
+}
+#blog-post-link{
+  background: #4d4d4d;
+}
+#portfolio-link{
+  background: #333333;
+}
+#medias-link{
+  background: #1a1a1a;
+}
+
+
+.social-container {
+    width: 400px;
+    margin: 40vh auto;
+    text-align: center;
+}
+
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+
+.social-icons li{
+  display: inline-block;
+  margin: 0.15em;
+}
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!--Nav Bar-->
+<nav id="navbar">
+  <header id="contents-head">Contents</header>
+  <ul>
+    <li><a class="nav-link" href="#homepage" id="homepage-link">Homepage</a>
+    </li>
+    <li><a class="nav-link" href="#blog-posts" id="blog-post-link">Blog Posts</a>
+    </li>
+    <li><a class="nav-link" href="#professional-portfolio" id="portfolio-link">Professional Portfolio</a>
+    </li>
+    <li><a class="nav-link" href="#social-media" id="medias-link">Social Media Links</a>
+    </li>
+  </ul>
+</nav>
+
+<!--Main Doc-->
+<main id="main-doc">
+  <section class="main-section" id="intro">
+    <header id="welcome-intro">Welcome To My Site!</header>
+    
+<!--INTRO SECTION 1-->
+    
+    <article>
+      <h2>Intro</h2>
+      <p id="intro-sent">Welcome to my site! I'm Sam, and this is my personal blog. I've also added my professional portfolio and links to my social media pages.</p>
+      
+<img src="https://pbs.twimg.com/profile_images/1235969852956958726/d76nSL6Z_400x400.jpg" height="350" width="auto" alt="My girlfriend and I" title="Kenadi and Sam" id="myPic"/>
+      <p id="pic-text">(I'm on the left in this pic)</p>
+        
+      <div id="intro-block">
+      <h2>Get To Know Me</h2>  
+      <p>In 2017, I graduated with a degree in Athletic Training from Luther College while I also interned under two separate head strength coaches. One of these coaches went on to coach for a Big 10 College for their football team, while the other had previously worked for multiple FBS college football teams before coming to Luther as the head coach. My responsibilities during my undergraduate internship(s) were:
+      <ul>
+        <li>Lead training sessions for the teams I was assigned to.</li>
+        <li>Complete the Internship Training assignments given by the Head and Assistant Strength Coaches.</li>
+      </ul>
+      </p>
+      <p>During the summer after my junior year, I interned under a local high school strength coach who was the regional director for the National Strength and Conditioning Association. During my time at the high school, my job was to:
+      <ul>
+        <li>Coach athletes from the age groups of incoming 6th graders to incoming high school seniors from every sport at the school in a variety of movements.</li>
+      </ul>
+      </p>
+      <p>After graduating, I had the opportunity to intern at the University of Minnesota with the Gopher's Olympic Strength and Conditioning Staff. While I was there, I was responsible for:
+        <ul>
+          <li>Learning from all of the the full-time, Division I Strength and Conditioning Coaches in matters of programming, coaching on the floor, building a professional portfolio, and interviewing practice.</li>
+          <li>Assisting with the coaching of all varsity sports teams of the coach I was assigned to at the time - including (we rotated which coach we were assigned to every 3 weeks or so).</li>
+        </ul>
+      </p>
+      <p>Before I could complete my internship at UMN, I accepted a Fellowship position at a small NAIA school in Iowa. After working as a fellow Strength and Conditioning Coach, I passed my Athletic Training Certification test and was promoted to the role of Graduate Assistant Strength and Conditioning Coach and Athletic Trainer. This meant that my responsibilities were:
+        <ul>
+          <li>Director of Strength and Conditioning for a local high school</li>
+          <li>Graduate Assistant Strength Coach in charge of multiple varsity sports teams for the college and assisting with 3-4 teams on top of that.</li>
+          <li>Graduate Assistant Athletic Trainer in charge of 2-3 varsity teams for the college</li>
+          <li>Master's Student in the Master's of Business Leadership (MBL) academic program.</li>
+        </ul>
+      </p>
+      <p>Before graduating from the MBL program, I accepted a position as a full-time Strength and Conditioning Coach at a Division I college in the south-east. While I was there, I was responsible for:
+        <ul>
+          <li>Acting as the head coach for the teams I was assigned to. As time passed, I was given the opportunity to select the teams I worked with.</li>
+          <li>Assisting the Director of Strength and Conditioning in the training of the football team, which plays in the FCS division. This also included travelling with the team, leading group warmups and standing on the sideline for home and away football games.</li>
+          <li>Leading the training groups for football when the Director of Strength and Conditioning was away.</li>
+         </ul>
+    <p>In short, I worked for roughly 6 years as a strength coach, having gathered experience with athletes from almost all sports and across almost every age group (incoming 6th graders to postgraduate-aged men and women) and playing level (from 6th grade JV to Professional and Olympic level athletes). This also includes highschool to adult general population individuals whose goals were to either train for a powerlifting meet, overcome an injury that had been effecting them for years, or to just stay in shape.</p>
+      </div>
+    </article>
+
+<!--INTRO SECTION 2-->
+
+  <article>
+    <div id="intro-block">
+    <h2>My Current Work</h2>
+    <p>After the Covid-19 pandemic, I was sent home to work remotely for the athletes at my Division I college. I had been considering a career change for quite some time. I have friends and family in the programming/tech field. I've always been passionate about the tech field and being able to create apps, programs, and functions that can make things easier for myself and for others.</p>
+    <p>After I knew which path I wanted to take, I left my position at the college in order to continue growing as a web developer and software engineer. This also allowed me to look at some freelance writting and web development opportunities. After I left my position, I continued helping the Director of Strength and Conditioning until he could fill my position.</p>
+    <p>Now I have been working on learning as much as I possibly can for the past 9-10 months. I've created some projects through classes I've taken and on my own. I've learned how to use HTML, CSS, SQL, JavaScript, and Node.js. This site works as my personal blog as well as my portfolio, background, and links to my social medias. This blog will be a place for me to share what I've learned through my programming journey and some of my passions - weight training and videogames.</p> 
+    </div>
+    </article>
+<div class="social-container">
+    <ul class="social-icons">
+        <li><a href="https://www.instagram.com/dunnettsam/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/DunnettSam"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sam-dunnett-832510a8/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://codepen.io/dunnettsj"><i class="fa fa-codepen"></i></a></li>
+    </ul>
+</div>
+</main>
